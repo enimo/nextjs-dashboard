@@ -8,6 +8,12 @@ import { Suspense } from 'react';
  
 import { fetchInvoicesPages } from '@/app/lib/data';
 
+import { Metadata } from 'next';
+export const metadata: Metadata = {
+  title: 'Invoices33 DIY_title',
+  description: 'Invoices33 page desc'
+};
+
 
 export default async function Page({
   searchParams,
